@@ -74,4 +74,3 @@ The Simple E-commerce Website relies on the following technologies:
 
 ---
 
-Feel free to leverage and customize this project to enhance your understanding of Angular and e-commerce web development. If you encounter any issues or have ideas for improvements, we encourage you to contribute by opening pull requests or addressing the concerns in the Issues section. Happy coding!
