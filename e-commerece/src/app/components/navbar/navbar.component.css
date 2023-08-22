@@ -1,0 +1,8 @@
+
+.navbar-nav {
+    margin-left: auto; 
+    background-color: white;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 25px; 
+  }

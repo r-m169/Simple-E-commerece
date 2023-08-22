@@ -1,0 +1,35 @@
+
+
+.card {
+    margin-top: 112px;
+    width: calc(80.33% - 20px);
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 10px #F7F1E4;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.equal-height {
+    display: flex;
+}
+
+.equal-height .card {
+    height: 89%;
+
+}
+
+.equal-height .card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
