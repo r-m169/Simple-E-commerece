@@ -1,14 +1,14 @@
 <div class="container mt-5 text-center">
   <div class="row equal-height justify-content-center">
-    <div class="col-md-4 col-sm-6 mb-5" *ngFor="let item of myData$ | async">
+    <div class="col-md-4 col-sm-6 mb-5 " *ngFor="let item of myData$ | async">
       <a [routerLink]="['/details', item.id]" class="card-link">
-        <div class="card">
+        <div class="card card-hover-transition"> <!-- Add the "card-hover-transition" class -->
           <img [src]="item.image" class="card-img-top" alt="{{ item.title }}">
-          <div class="card-body">
+          <div class="card-body para">
             <h5 class="card-title">{{ item.title }}</h5>
-            <p class="card-text">{{ item.description }}</p>
-            <p class="card-text">$ {{ item.price }}</p>
-            <button (click)="addToCart(item)" class="btn btn-primary">Add to Cart</button>
+            <p class="card-text">{{ item.description | slice:0:30 }}{{ item.description.length > 30 ? '...' : '' }}</p>
+            <p class="card-text"> {{ item.price }} EGP</p>
+            <button (click)="addToCart(item)" class="btn">Add to Cart</button>
           </div>
         </div>
       </a>

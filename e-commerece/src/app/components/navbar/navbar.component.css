@@ -1,8 +1,43 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@100&family=Dancing+Script&family=Exo+2&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,200;0,400;0,700;1,100&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins&family=Roboto+Mono:wght@100&family=Rubik&family=Ruwudu&family=Victor+Mono:wght@100;500&display=swap');
 
+*{
+  /* font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+font-family: 'PT Serif', serif;
+/* font-family: 'Roboto Mono', monospace; */
+}
 .navbar-nav {
     margin-left: auto; 
-    background-color: white;
+    /* background-color: white; */
+    /* justify-content: space-between; */
   }
   .navbar-nav .nav-item {
     margin-right: 25px; 
+   
+  }
+  ul{
+    gap: 30px;
+    
+  }
+  .navbar{
+    box-shadow: 0px -10px 15px -6px  #FFE5E5, 
+    0px  5px  15px  0px  #F3FDE8, 
+    5px  0px  15px  0px  #FFE5E5, 
+    -5px  0px  15px  0px  #F3FDE8;
+  }
+  i{
+   color:#FFBFBF;
+  }
+  a{
+    color: #A8DF8E;
+  }
+  .navbar-brand{
+    margin-left: 5%;
+  }
+  .she{
+    color: #A8DF8E;
+  }
+  .in{
+    color: #FFBFBF;
   }

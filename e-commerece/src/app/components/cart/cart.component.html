@@ -21,13 +21,13 @@
             <td>{{ item.product.description }}</td>
             <td>{{ item.product.price }}</td>
             <td>
-              <button (click)="decreaseQuantity(item)">-</button>
+              <button (click)="decreaseQuantity(item)" class="btn1">-</button>
               {{ item.quantity }}
-              <button (click)="increaseQuantity(item)">+</button>
+              <button (click)="increaseQuantity(item)" class="btn1">+</button>
             </td>
             <td>{{ item.product.price * item.quantity }}</td>
             <td>
-              <button (click)="removeFromCart(item.product.id)">Delete</button>
+              <button (click)="removeFromCart(item.product.id)" class="btn1">Delete</button>
             </td>
           </tr>
         </tbody>
@@ -36,8 +36,10 @@
   </div>
 
   <div class="center" *ngIf="cartItems.length === 0">
+    <img src="../../../assets/cart.webp" alt="">
     <h4>Your cart is empty</h4>
     <h6>Add items to it now</h6>
-    <a routerLink="/">Shop now</a>
+    <br>
+    <a routerLink="/" class="btn">Shop now</a>
   </div>
   

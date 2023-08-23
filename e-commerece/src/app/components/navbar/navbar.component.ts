@@ -18,4 +18,10 @@ export class NavbarComponent implements OnInit {
       this.cartItemsCount = this.cartService.getCartItems().length;
     });
   }
+
+  navbarOpen = false;
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
 }

@@ -25,6 +25,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    color: #485935;
 }
  .center img{
    text-decoration: none;
@@ -34,4 +35,25 @@
    height: 162px;
    width: 125px;
    margin: 20px 0px;
+}
+.btn{
+    color: white;
+    background-color: #FFBFBF;
+    /* padding: 10px 20px 10px 20px; */
+}
+.btn:hover{
+    color: #FFBFBF;
+    background-color: white;
+    border: 1px solid #FFBFBF;
+    box-shadow: 2px 2px 10px 10px #F3FDE8;
+    /* transform: scale(1.1); */
+}
+.btn1{
+    background-color: #FFBFBF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+th , td{
+    color: #485935;
 }
